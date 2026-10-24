@@ -123,6 +123,7 @@ h1,h2,h3,p{margin:0}
 
 /* cart drawer */
 .scrim{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.66);display:flex;align-items:flex-end;justify-content:center}
+.scrim[hidden]{display:none}
 .sheet{width:100%;max-width:520px;max-height:94%;overflow:auto;background:var(--ink-2);border:1px solid var(--line);border-bottom:0;border-radius:26px 26px 0 0;padding:22px max(22px,env(safe-area-inset-left,0px)) calc(26px + env(safe-area-inset-bottom,0px));padding-right:max(22px,env(safe-area-inset-right,0px));animation:up .25s ease}
 @keyframes up{from{transform:translateY(40px);opacity:0}}
 .sheet-h{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:6px}
